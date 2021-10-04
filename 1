@@ -1,0 +1,14 @@
+last_semester_gradebook = [["Networking", 98], ["History", 96], ["Math", 97], ["ELA", 85]]
+
+# Your code below: 
+subjects = ["Coding", "Networking", "ELA", "Math", "Science"]
+grades = [76, 100, 100, 91, 94]
+gradebook = [["Coding", 76], ["Networking", 100], ["ELA", 100], ["Math", 91], ["Science", 94]]
+
+gradebook.append(["computer science", 100])
+gradebook.append(["visual arts", 93])
+gradebook[6] = ["visual arts", 98]
+gradebook[2].remove(100)
+gradebook[2].append("Pass")
+full_gradebook = last_semester_gradebook + gradebook
+print(full_gradebook)
